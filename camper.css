@@ -1,10 +1,16 @@
 body {
     background-color: burlywood;
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: san-serif;
+
+}
+h1, h2{
+    font-family: Impact, Serif;
 }
 
 h1, h2, p {
     text-align: center;
+  
   }
   
   .menu {
@@ -12,6 +18,8 @@ h1, h2, p {
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
   }
   
   .item p {
@@ -19,10 +27,10 @@ h1, h2, p {
   }
   .flavor {
     text-align: left;
-    width: 49%;
+    width: 75%;
   }
   
   .price {
     text-align: right;
-    width: 49%;
+    width: 25%;
   }
